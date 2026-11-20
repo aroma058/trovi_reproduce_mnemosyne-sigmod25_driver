@@ -1,0 +1,49 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "actionApplication": [
+                {
+                    "@id": "#ChameleonJupyterLab"
+                }
+            ],
+            "author": [
+                {
+                    "@id": "#author_0"
+                }
+            ],
+            "datePublished": "2026-11-20T01:30:00+00:00",
+            "description": "Reproducing Figure 4 of Mnemosyne (SIGMOD '25) on Chameleon: unnecessarily accessed data blocks for RocksDB, Monkey and the optimal Bloom filter allocation.",
+            "disambiguatingDescription": "Packaged experiment for the Chameleon Reproducibility Ambassador program",
+            "keywords": "experiment, reproducibility, SIGMOD, LSM-tree, Bloom filter, RocksDB",
+            "name": "Reproducing_Mnemosyne_SIGMOD25"
+        },
+        {
+            "@id": "trovi.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            }
+        },
+        {
+            "@id": "#author_0",
+            "@type": "Person",
+            "affiliation": "UMass Boston",
+            "email": "aroma.hoque001@umb.edu",
+            "name": "Aroma Hoque"
+        },
+        {
+            "@id": "#ChameleonJupyterLab",
+            "@type": "SoftwareApplication",
+            "name": "Chameleon JupyterLab",
+            "trovi_arguments": "{}",
+            "trovi_type": "jupyterhub",
+            "url": "https://jupyter.chameleoncloud.org/"
+        }
+    ]
+}
