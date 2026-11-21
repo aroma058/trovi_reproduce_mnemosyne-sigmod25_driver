@@ -14,11 +14,11 @@
                     "@id": "#author_0"
                 }
             ],
-            "datePublished": "2026-11-20T01:30:00+00:00",
-            "description": "Reproducing Figure 4 of Mnemosyne (SIGMOD '25) on Chameleon: unnecessarily accessed data blocks for RocksDB, Monkey and the optimal Bloom filter allocation.",
+            "datePublished": "2026-11-21T18:00:00+00:00",
+            "description": "Reproduces Figure 12 of Mnemosyne (SIGMOD '25) on Chameleon at a smaller scale: read bytes and read latency of RocksDB, Mnemosyne and Mnemosyne+ across bits-per-key, empty-query ratios and query distributions. Runs in about 5-6 hours on one bare-metal node.",
             "disambiguatingDescription": "Packaged experiment for the Chameleon Reproducibility Ambassador program",
-            "keywords": "experiment, reproducibility, SIGMOD, LSM-tree, Bloom filter, RocksDB",
-            "name": "Reproducing_Mnemosyne_SIGMOD25"
+            "keywords": "reproducible research, SIGMOD, LSM-tree, Bloom filter, RocksDB",
+            "name": "Reproducing Mnemosyne (SIGMOD '25)"
         },
         {
             "@id": "trovi.json",
